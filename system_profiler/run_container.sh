@@ -1,0 +1,1 @@
+docker run --rm -it --runtime nvidia --name=container --net=host -v $(pwd):/workspace nvidia-tf:4.4
